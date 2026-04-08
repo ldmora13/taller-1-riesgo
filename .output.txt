@@ -1,0 +1,856 @@
+
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:516
+:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:517
+:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:518
+:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_34'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:526
+:<td class='uncovered'><pre><span  class='survived'>        validate(weather,
+holidays, country);</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:527:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:528:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:549
+:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:550
+:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:551
+:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_36'>2</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:561
+:<td class='uncovered'><pre><span  class='survived'>        boolean isExpert =
+request.travelerExperienceYears &#62; 10;</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:562:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:563:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:599
+:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:600
+:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:601
+:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_39'>3</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:613
+:<td class='uncovered'><pre><span  class='survived'>        if (!isExpert
+&#38;&#38; weather.temperatureMax &#60; 0) {</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:614:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:615:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:621
+:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:622
+:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:623
+:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_40'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:631
+:<td class='uncovered'><pre><span  class='survived'>            return
+buildResponse(RiskLevel.HIGH_RISK, request, &#34;Extreme sub-zero temperatures
+detected&#34;);</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:632:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:633:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:669
+:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:670
+:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:671
+:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_43'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:679
+:<td class='uncovered'><pre><span  class='survived'>        if
+(isInsufficientBudget(request.budget, country.population))
+{</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:680:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:681:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:687
+:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:688
+:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:689
+:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_44'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:697
+:<td class='uncovered'><pre><span  class='survived'>            return
+buildResponse(RiskLevel.HIGH_RISK, request, &#34;Insufficient budget for the
+destination&#34;);</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:698:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:699:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:735
+:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:736
+:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:737
+:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_47'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:745
+:<td class='uncovered'><pre><span  class='survived'>        if
+(hasHolidayCluster(holidays, request.travelDate)) {</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:746:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:747:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:753
+:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:754
+:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:755
+:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_48'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:763
+:<td class='uncovered'><pre><span  class='survived'>            return
+buildResponse(RiskLevel.HIGH_RISK, request, &#34;High concentration of
+holidays during the week of travel&#34;);</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:764:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:765:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:801
+:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:802
+:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:803
+:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_51'>4</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:817
+:<td class='uncovered'><pre><span  class='survived'>        if
+(country.population &#62; 100_000_000 &#38;&#38;
+request.travelerExperienceYears &#60; 2) {</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:818:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:819:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:825
+:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:826
+:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:827
+:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_52'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:835
+:<td class='uncovered'><pre><span  class='survived'>            return
+buildResponse(RiskLevel.HIGH_RISK, request, &#34;Destination with high
+population density and low traveler experience&#34;);</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:836:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:837:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:888
+:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:889
+:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:890
+:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_56'>3</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:902
+:<td class='uncovered'><pre><span  class='survived'>        if (!isExpert
+&#38;&#38; weather.precipitationProbability &#62; 80) {</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:903:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:904:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:910
+:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:911
+:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:912
+:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_57'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:920
+:<td class='uncovered'><pre><span  class='survived'>            return
+buildResponse(RiskLevel.MEDIUM_RISK, request, &#34;High probability of rain
+during the trip&#34;);</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:921:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:922:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:958
+:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:959
+:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:960
+:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_60'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:968
+:<td class='uncovered'><pre><span  class='survived'>        if
+(isHolidayOnDate(holidays, request.travelDate)) {</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:969:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:970:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:976
+:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:977
+:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:978
+:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_61'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:986
+:<td class='uncovered'><pre><span  class='survived'>            return
+buildResponse(RiskLevel.MEDIUM_RISK, request, &#34;The trip coincides with a
+national holiday&#34;);</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:987:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:988:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:102
+4:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:102
+5:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:102
+6:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_64'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:103
+4:<td class='uncovered'><pre><span  class='survived'>        if
+(isLanguageBarrier(country.languages)) {</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1035:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1036:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:104
+2:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:104
+3:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:104
+4:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_65'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:105
+2:<td class='uncovered'><pre><span  class='survived'>            return
+buildResponse(RiskLevel.MEDIUM_RISK, request, &#34;The language of the
+destination may present a barrier&#34;);</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1053:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1054:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:109
+0:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:109
+1:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:109
+2:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_68'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:110
+0:<td class='uncovered'><pre><span  class='survived'>        return
+buildResponse(RiskLevel.SAFE, request, &#34;Optimal conditions for
+travel&#34;);</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1101:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1102:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:115
+3:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:115
+4:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:115
+5:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_72'>2</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:116
+5:<td class='uncovered'><pre><span  class='survived'>        if (weather ==
+null</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1166:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1167:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:118
+8:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:118
+9:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:119
+0:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_74'>3</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:120
+2:<td class='uncovered'><pre><span  class='survived'>                ||
+holidays.isEmpty()</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1203:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1204:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:124
+0:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:124
+1:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:124
+2:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_77'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:125
+0:<td class='uncovered'><pre><span  class='survived'>                ||
+country.languages.isEmpty()) {</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1251:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1252:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:133
+3:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:133
+4:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:133
+5:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_83'>5</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:135
+1:<td class='uncovered'><pre><span  class='survived'>        if (population
+&#60; 10_000_000) return budget &#60; 1000;</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1352:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1353:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:135
+9:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:136
+0:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:136
+1:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_84'>5</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:137
+7:<td class='uncovered'><pre><span  class='survived'>        if (population
+&#60;= 100_000_000) return budget &#60; 2000;</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1378:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1379:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:138
+5:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:138
+6:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:138
+7:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_85'>3</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:139
+9:<td class='uncovered'><pre><span  class='survived'>        return budget
+&#60; 3000;</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1400:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1401:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:146
+7:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:146
+8:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:146
+9:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_90'>3</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:148
+1:<td class='uncovered'><pre><span  class='survived'>                .filter(h
+-&#62; !h.date.isBefore(date) &#38;&#38;
+!h.date.isAfter(date.plusDays(7)))</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1482:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1483:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:150
+4:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:150
+5:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:150
+6:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_92'>3</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:151
+8:<td class='uncovered'><pre><span  class='survived'>        return count
+&#62;= 3;</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1519:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1520:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:157
+1:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:157
+2:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:157
+3:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_96'>4</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:158
+7:<td class='uncovered'><pre><span  class='survived'>        return
+holidays.stream().anyMatch(h -&#62;
+h.date.equals(date));</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1588:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1589:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:164
+0:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:164
+1:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:164
+2:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_100'>2</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:165
+2:<td class='uncovered'><pre><span  class='survived'>        return
+languages.stream()</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1653:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1654:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:169
+0:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:169
+1:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:169
+2:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_103'>2</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:170
+2:<td class='uncovered'><pre><span  class='survived'>
+lang.contains(&#34;spanish&#34;) ||</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1703:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1704:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:171
+0:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:171
+1:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:171
+2:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_104'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:172
+0:<td class='uncovered'><pre><span  class='survived'>
+      lang.contains(&#34;english&#34;) ||</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1721:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1722:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:172
+8:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:172
+9:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:173
+0:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_105'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:173
+8:<td class='uncovered'><pre><span  class='survived'>
+      lang.equals(&#34;es&#34;) ||</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1739:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1740:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:174
+6:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:174
+7:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:174
+8:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_106'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:175
+6:<td class='uncovered'><pre><span  class='survived'>
+      lang.equals(&#34;en&#34;)</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1757:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1758:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:185
+4:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:185
+5:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:185
+6:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_113'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:186
+4:<td class='uncovered'><pre><span  class='survived'>        response.reason =
+request.includeReason ? reason : null;</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1865:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1866:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:187
+2:<td class='survived'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:187
+3:<span class='pop'>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:187
+4:<a
+href='#grouporg.pitest.mutationtest.report.html.SourceFile@1200458e_114'>1</a>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:188
+2:<td class='uncovered'><pre><span  class='survived'>        return
+response;</span></pre></td></tr>
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1883:
+
+target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:1884:
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:192
+6:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> removed call to
+org/unac/service/TravelRiskAssessmentService::validate &rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:192
+7:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:192
+8:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:193
+7:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> changed conditional
+boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>2.<span><b>2</b><br/><b>Location : </b>assessRisk<br/><b>Killed by
+: </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:193
+8:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:193
+9:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:194
+8:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> negated conditional
+&rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>2.<span><b>2</b><br/><b>Location : </b>assessRisk<br/><b>Killed by
+: </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p
+class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> changed conditional
+boundary &rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:194
+9:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:195
+0:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:195
+9:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> replaced return value
+with null for org/unac/service/TravelRiskAssessmentService::assessRisk &rarr;
+NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:196
+0:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:196
+1:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:197
+0:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> negated conditional
+&rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:197
+1:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:197
+2:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:198
+1:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> replaced return value
+with null for org/unac/service/TravelRiskAssessmentService::assessRisk &rarr;
+NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:198
+2:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:198
+3:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:199
+2:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> negated conditional
+&rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:199
+3:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:199
+4:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:200
+3:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> replaced return value
+with null for org/unac/service/TravelRiskAssessmentService::assessRisk &rarr;
+NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:200
+4:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:200
+5:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:201
+4:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> negated conditional
+&rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>2.<span><b>2</b><br/><b>Location : </b>assessRisk<br/><b>Killed by
+: </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p
+class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> changed conditional
+boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>4.<span><b>4</b><br/><b>Location : </b>assessRisk<br/><b>Killed by
+: </b>none</span></span> changed conditional boundary &rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:201
+5:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:201
+6:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:202
+5:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> replaced return value
+with null for org/unac/service/TravelRiskAssessmentService::assessRisk &rarr;
+NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:202
+6:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:202
+7:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:203
+6:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> changed conditional
+boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>2.<span><b>2</b><br/><b>Location : </b>assessRisk<br/><b>Killed by
+: </b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p
+class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> negated conditional
+&rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:203
+7:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:203
+8:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:204
+7:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> replaced return value
+with null for org/unac/service/TravelRiskAssessmentService::assessRisk &rarr;
+NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:204
+8:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:204
+9:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:205
+8:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> negated conditional
+&rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:205
+9:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:206
+0:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:206
+9:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> replaced return value
+with null for org/unac/service/TravelRiskAssessmentService::assessRisk &rarr;
+NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:207
+0:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:207
+1:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:208
+0:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> negated conditional
+&rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:208
+1:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:208
+2:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:209
+1:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> replaced return value
+with null for org/unac/service/TravelRiskAssessmentService::assessRisk &rarr;
+NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:209
+2:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:209
+3:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:210
+2:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>assessRisk<br/><b>Killed by : </b>none</span></span> replaced return value
+with null for org/unac/service/TravelRiskAssessmentService::assessRisk &rarr;
+NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:210
+3:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:210
+4:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:211
+3:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>validate<br/><b>Killed by : </b>none</span></span> negated conditional
+&rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>2.<span><b>2</b><br/><b>Location : </b>validate<br/><b>Killed by :
+</b>none</span></span> negated conditional &rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:211
+4:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:211
+5:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:212
+4:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>validate<br/><b>Killed by : </b>none</span></span> negated conditional
+&rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>2.<span><b>2</b><br/><b>Location : </b>validate<br/><b>Killed by :
+</b>none</span></span> negated conditional &rarr; NO_COVERAGE</p> <p
+class='NO_COVERAGE'><span class='pop'>3.<span><b>3</b><br/><b>Location :
+</b>validate<br/><b>Killed by : </b>none</span></span> negated conditional
+&rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:212
+5:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:212
+6:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:213
+5:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>validate<br/><b>Killed by : </b>none</span></span> negated conditional
+&rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:213
+6:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:213
+7:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:214
+6:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>isInsufficientBudget<br/><b>Killed by : </b>none</span></span> changed
+conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>2.<span><b>2</b><br/><b>Location :
+</b>isInsufficientBudget<br/><b>Killed by : </b>none</span></span> changed
+conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>3.<span><b>3</b><br/><b>Location :
+</b>isInsufficientBudget<br/><b>Killed by : </b>none</span></span> replaced
+boolean return with true for
+org/unac/service/TravelRiskAssessmentService::isInsufficientBudget &rarr;
+NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>4.<span><b>4</b><br/><b>Location :
+</b>isInsufficientBudget<br/><b>Killed by : </b>none</span></span> negated
+conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>5.<span><b>5</b><br/><b>Location :
+</b>isInsufficientBudget<br/><b>Killed by : </b>none</span></span> negated
+conditional &rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:214
+7:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:214
+8:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:215
+7:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>isInsufficientBudget<br/><b>Killed by : </b>none</span></span> negated
+conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>2.<span><b>2</b><br/><b>Location :
+</b>isInsufficientBudget<br/><b>Killed by : </b>none</span></span> negated
+conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>3.<span><b>3</b><br/><b>Location :
+</b>isInsufficientBudget<br/><b>Killed by : </b>none</span></span> changed
+conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>4.<span><b>4</b><br/><b>Location :
+</b>isInsufficientBudget<br/><b>Killed by : </b>none</span></span> changed
+conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>5.<span><b>5</b><br/><b>Location :
+</b>isInsufficientBudget<br/><b>Killed by : </b>none</span></span> replaced
+boolean return with true for
+org/unac/service/TravelRiskAssessmentService::isInsufficientBudget &rarr;
+NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:215
+8:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:215
+9:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:216
+8:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>isInsufficientBudget<br/><b>Killed by : </b>none</span></span> changed
+conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>2.<span><b>2</b><br/><b>Location :
+</b>isInsufficientBudget<br/><b>Killed by : </b>none</span></span> negated
+conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>3.<span><b>3</b><br/><b>Location :
+</b>isInsufficientBudget<br/><b>Killed by : </b>none</span></span> replaced
+boolean return with true for
+org/unac/service/TravelRiskAssessmentService::isInsufficientBudget &rarr;
+NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:216
+9:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:217
+0:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:217
+9:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>lambda$hasHolidayCluster$0<br/><b>Killed by : </b>none</span></span>
+negated conditional &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>2.<span><b>2</b><br/><b>Location :
+</b>lambda$hasHolidayCluster$0<br/><b>Killed by : </b>none</span></span>
+replaced boolean return with true for
+org/unac/service/TravelRiskAssessmentService::lambda$hasHolidayCluster$0
+&rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>3.<span><b>3</b><br/><b>Location :
+</b>lambda$hasHolidayCluster$0<br/><b>Killed by : </b>none</span></span>
+negated conditional &rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:218
+0:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:218
+1:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:219
+0:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>hasHolidayCluster<br/><b>Killed by : </b>none</span></span> replaced
+boolean return with true for
+org/unac/service/TravelRiskAssessmentService::hasHolidayCluster &rarr;
+NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>2.<span><b>2</b><br/><b>Location :
+</b>hasHolidayCluster<br/><b>Killed by : </b>none</span></span> changed
+conditional boundary &rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>3.<span><b>3</b><br/><b>Location :
+</b>hasHolidayCluster<br/><b>Killed by : </b>none</span></span> negated
+conditional &rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:219
+1:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:219
+2:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:220
+1:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>lambda$isHolidayOnDate$0<br/><b>Killed by : </b>none</span></span>
+replaced boolean return with true for
+org/unac/service/TravelRiskAssessmentService::lambda$isHolidayOnDate$0 &rarr;
+NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>2.<span><b>2</b><br/><b>Location :
+</b>isHolidayOnDate<br/><b>Killed by : </b>none</span></span> replaced boolean
+return with true for
+org/unac/service/TravelRiskAssessmentService::isHolidayOnDate &rarr;
+NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>3.<span><b>3</b><br/><b>Location :
+</b>isHolidayOnDate<br/><b>Killed by : </b>none</span></span> replaced boolean
+return with false for
+org/unac/service/TravelRiskAssessmentService::isHolidayOnDate &rarr;
+NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>4.<span><b>4</b><br/><b>Location :
+</b>lambda$isHolidayOnDate$0<br/><b>Killed by : </b>none</span></span>
+replaced boolean return with false for
+org/unac/service/TravelRiskAssessmentService::lambda$isHolidayOnDate$0 &rarr;
+NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:220
+2:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:220
+3:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:221
+2:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>isLanguageBarrier<br/><b>Killed by : </b>none</span></span> replaced
+boolean return with false for
+org/unac/service/TravelRiskAssessmentService::isLanguageBarrier &rarr;
+NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>2.<span><b>2</b><br/><b>Location :
+</b>isLanguageBarrier<br/><b>Killed by : </b>none</span></span> replaced
+boolean return with true for
+org/unac/service/TravelRiskAssessmentService::isLanguageBarrier &rarr;
+NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:221
+3:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:221
+4:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:222
+3:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>lambda$isLanguageBarrier$0<br/><b>Killed by : </b>none</span></span>
+replaced boolean return with true for
+org/unac/service/TravelRiskAssessmentService::lambda$isLanguageBarrier$0
+&rarr; NO_COVERAGE</p> <p class='NO_COVERAGE'><span
+class='pop'>2.<span><b>2</b><br/><b>Location :
+</b>lambda$isLanguageBarrier$0<br/><b>Killed by : </b>none</span></span>
+negated conditional &rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:222
+4:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:222
+5:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:223
+4:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>lambda$isLanguageBarrier$0<br/><b>Killed by : </b>none</span></span>
+negated conditional &rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:223
+5:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:223
+6:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:224
+5:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>lambda$isLanguageBarrier$0<br/><b>Killed by : </b>none</span></span>
+negated conditional &rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:224
+6:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:224
+7:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:225
+6:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>lambda$isLanguageBarrier$0<br/><b>Killed by : </b>none</span></span>
+negated conditional &rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:225
+7:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:225
+8:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:226
+7:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>buildResponse<br/><b>Killed by : </b>none</span></span> negated
+conditional &rarr; NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:226
+8:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:226
+9:</tr>
+> target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:227
+8:<p class='NO_COVERAGE'><span class='pop'>1.<span><b>1</b><br/><b>Location :
+</b>buildResponse<br/><b>Killed by : </b>none</span></span> replaced return
+value with null for
+org/unac/service/TravelRiskAssessmentService::buildResponse &rarr;
+NO_COVERAGE</p>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:227
+9:</td>
+  target\pit-reports\org.unac.service\TravelRiskAssessmentService.java.html:228
+0:</tr>
