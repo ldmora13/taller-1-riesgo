@@ -509,10 +509,62 @@ public class TravelRiskAssessmentServiceTest {
     }
 
     @Test
+    void shouldThrowWhenHolidaysAreNull() {
+        var req = baseRequest();
+        when(weatherClient.getWeather(anyString())).thenReturn(weather(20, 0));
+        when(holidayClient.getHolidays(anyString(), anyInt())).thenReturn(null);
+        when(countryClient.getCountry(anyString())).thenReturn(country(50_000_000, List.of("spanish")));
+
+        assertThrows(ExternalServiceException.class, () -> service.assessRisk(req));
+    }
+
+    @Test
     void shouldThrowWhenHolidaysEmpty() {
         var req = baseRequest();
         when(weatherClient.getWeather(anyString())).thenReturn(weather(20, 0));
         when(holidayClient.getHolidays(anyString(), anyInt())).thenReturn(List.of());
         assertThrows(ExternalServiceException.class, () -> service.assessRisk(req));
+    }
+
+    @Test
+    void shouldThrowWhenLanguagesAreEmpty() {
+        var req = baseRequest();
+        when(weatherClient.getWeather(anyString())).thenReturn(weather(20, 0));
+        when(holidayClient.getHolidays(anyString(), anyInt())).thenReturn(holidays(req.travelDate.plusDays(10)));
+        when(countryClient.getCountry(anyString())).thenReturn(country(50_000_000, List.of()));
+
+        assertThrows(ExternalServiceException.class, () -> service.assessRisk(req));
+    }
+
+    @Test
+    void shouldReturnSafeWhenLanguageCodeIsEs() {
+        var req = baseRequest();
+        mockAll(
+                weather(20, 0),
+                holidays(req.travelDate.plusDays(10)),
+                country(50_000_000, List.of("es"))
+        );
+
+        var res = service.assessRisk(req);
+
+        assertEquals(RiskLevel.SAFE, res.riskLevel);
+        assertEquals("Optimal conditions for travel", res.reason);
+        verifyAll();
+    }
+
+    @Test
+    void shouldReturnSafeWhenLanguageCodeIsEn() {
+        var req = baseRequest();
+        mockAll(
+                weather(20, 0),
+                holidays(req.travelDate.plusDays(10)),
+                country(50_000_000, List.of("en"))
+        );
+
+        var res = service.assessRisk(req);
+
+        assertEquals(RiskLevel.SAFE, res.riskLevel);
+        assertEquals("Optimal conditions for travel", res.reason);
+        verifyAll();
     }
 }
